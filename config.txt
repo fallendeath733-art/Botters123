@@ -1,0 +1,66 @@
+# =============================================================================
+# CONFIG FILE - Fill in your API keys
+# =============================================================================
+
+# Select which exchange to use (BYBIT, BINANCE, OKX, BITGET, KUCOIN, MEXC, GATEIO)
+SELECTED_EXCHANGE=BYBIT
+
+[BYBIT]
+# Get API key from: https://www.bybit.com/app/user/api-management
+API_KEY=rWL0VGW2YlfvsMMY8j
+API_SECRET=TnMmG72YAHuaIN8Hpws7QmiNXY8WOAdCZWIb
+TESTNET=false
+
+[BINANCE]
+# Get API key from: https://www.binance.com/en/my/settings/api-management
+API_KEY=your_binance_api_key_here
+API_SECRET=your_binance_api_secret_here
+TESTNET=true
+
+[OKX]
+# Get API key from: https://www.okx.com/account/my-api
+API_KEY=your_okx_api_key_here
+API_SECRET=your_okx_api_secret_here
+PASSPHRASE=your_okx_passphrase_here
+TESTNET=true
+
+[BITGET]
+# Get API key from: https://www.bitget.com/api-management
+API_KEY=your_bitget_api_key_here
+API_SECRET=your_bitget_api_secret_here
+PASSPHRASE=your_bitget_passphrase_here
+TESTNET=true
+
+[KUCOIN]
+# Get API key from: https://www.kucoin.com/account/api
+API_KEY=your_kucoin_api_key_here
+API_SECRET=your_kucoin_api_secret_here
+API_PASSPHRASE=your_kucoin_passphrase_here
+TESTNET=true
+
+[MEXC]
+# Get API key from: https://www.mexc.com/user/openapi
+API_KEY=your_mexc_api_key_here
+API_SECRET=your_mexc_api_secret_here
+TESTNET=true
+
+[GATEIO]
+# Get API key from: https://www.gate.io/myaccount/apikeys
+API_KEY=your_gateio_api_key_here
+API_SECRET=your_gateio_api_secret_here
+TESTNET=true
+
+[CMC]
+# Get API key from: https://coinmarketcap.com/api/
+# Free plan: 333 calls/day
+API_KEY=f74501a0f64f407fb42d7a0c90d189d6
+
+# =============================================================================
+# NOTES:
+# - Replace 'your_xxx_key_here' with your actual API keys
+# - Keep this file secure and never commit to git
+# - TESTNET=true for testing, false for live trading
+# - Set SELECTED_EXCHANGE to: BYBIT, BINANCE, OKX, BITGET, KUCOIN, MEXC, or GATEIO
+# - Only fill in API keys for the exchange(s) you want to use
+# - Other exchanges will run in demo mode (read-only)
+# =============================================================================
